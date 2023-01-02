@@ -1,5 +1,10 @@
 export const en = {
-  welcome: "Hi ! 👋",
-  greetings: "Greeting, I am Matthieu.",
-  whoAmI: "I am a fullstack web developer, with a preference for backend development.",
+  welcome: "Hey there ! 👋",
+  greetings: "Greetings, I am Matthieu.",
+  whoAmI: "I am a fullstack web developer, and I also do systems and video game programming.",
+
+  actions: {
+    experience: "My experience",
+    simplified: "Simplified version",
+  },
 };

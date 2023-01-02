@@ -1,9 +1,13 @@
 <script setup lang="ts">
-import { useCoreLang } from "@/composables/lang";
-
-const { t } = useCoreLang();
+import HomeActions from "@/components/molecules/HomeActions.vue";
+import HomeGreetings from "@/components/molecules/HomeGreetings.vue";
 </script>
 
 <template>
-  <main class="text-primary-base">{{ t("welcome") }}</main>
+  <main class="w-full h-screen flex items-center justify-center">
+    <div class="p-4 flex flex-col gap-8">
+      <HomeGreetings class="max-w-4xl" />
+      <HomeActions />
+    </div>
+  </main>
 </template>

@@ -1,5 +1,4 @@
 <script setup lang="ts">
-import { useCoreLang } from "@/composables/lang";
 import { GlobeAltIcon } from "@heroicons/vue/24/solid";
 import { useI18n } from "vue-i18n";
 
